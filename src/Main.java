@@ -5,8 +5,9 @@ import com.bridgelabz.UserRegistrationProblem.UserRegistration;
 public class Main {
     public static void main(String[] args) {
       UserRegistration u = new UserRegistration();
-      String fn ="Rohith";   //User's first name
-        u.form(fn);
+      String fn ="Rohith";       //User's first name
+      String ln = "venkatesh";  //User's last name
+        u.nameCheck(fn,ln);
 
         }
     }
