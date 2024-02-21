@@ -12,7 +12,7 @@ public class UserRegistration {
         System.out.println("Invalid email id!");
     }
 
-    Pattern passwordPattern = Pattern.compile("(?=.*[A-Z]).{8,}"); // conditions for valid password(should contain atleast 1 uppercase character)
+    Pattern passwordPattern = Pattern.compile("(?=.*[A-Z])(?=.*[0-9]).{8,}"); // conditions for valid password(should contain atleast 1 numeric character)
     Matcher matcher = passwordPattern.matcher(passwd);
 
         if(matcher.matches()){

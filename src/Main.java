@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         UserRegistration u = new UserRegistration();
         String emaild ="rohithv1396@gmil.com";       //User's email id
-        String passwd="135"; // user's password
+        String passwd="Hi123456"; // user's password
        u.emailPasswordCheck(emaild,passwd);
 
     }
