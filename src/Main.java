@@ -5,7 +5,7 @@ import com.bridgelabz.userregistrationproblem.UserRegistration;
 public class Main {
     public static void main(String[] args) {
         UserRegistration u = new UserRegistration();
-        String emaild ="rohithv1396@gmil.com";       //User's email id
+        String emaild ="rohithv1396@gmail.com";       //User's email id
         String passwd="Hi123456"; // user's password
        u.emailPasswordCheck(emaild,passwd);
 
